@@ -6,7 +6,7 @@ class _Folder():
         self._session = session
         self.folder_name = folder_name
         self.site_url = url
-        self.timeout = 15
+        self.timeout = 60
 
         self.info = self._create_folder()
 
